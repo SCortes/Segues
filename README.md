@@ -1,0 +1,4 @@
+Segues
+======
+
+Example with segues
