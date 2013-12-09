@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First View Controller-->
         <scene sceneID="eaa-qG-Zxb">
             <objects>
-                <viewController id="LXF-uC-LVd" sceneMemberID="viewController">
+                <viewController id="LXF-uC-LVd" customClass="FirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uVf-j9-Htg"/>
                         <viewControllerLayoutGuide type="bottom" id="F69-co-VnG"/>
@@ -26,15 +26,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="primeraEtiqueta" destination="deE-5F-VtH" id="yC6-kl-do6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rOD-GA-0pa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="32" y="-22"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="nkb-JW-ETX">
             <objects>
-                <viewController id="tL7-az-4qT" sceneMemberID="viewController">
+                <viewController id="tL7-az-4qT" customClass="SecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="x1H-5Z-SJA"/>
                         <viewControllerLayoutGuide type="bottom" id="PHW-cW-6u8"/>
